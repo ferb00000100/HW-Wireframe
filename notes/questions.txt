@@ -1,0 +1,4 @@
+
+1). Why would you use the ID over a Class?
+
+2). when do you use a "." for a class?

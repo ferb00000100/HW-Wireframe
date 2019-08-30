@@ -1,0 +1,53 @@
+The Cascade
+
+inline styles in HTML
+css files
+@ import rule from other files
+
+User Stylesheet
+    done in the client browser
+
+Default Stylesheet
+
+Author stylesheet ( developer )
+
+cssreset -> allows for the same starting point for your css styles
+since browsers are different.
+
+Specificity of Rules
+
+ABC
+
+A - Count of ID selectors
+B - Count of class and attribute selectors
+c - Count of type selectors
+
+Example of Specificity
+
+*           /* A=0 B=0 C=0 -> specificity = 0 */
+li          /* A=0 B=0 C=1 -> specificity = 1 */
+ul li       /* A=0 B=0 C=2 -> specificity = 2 */
+li.red      /* A=0 B=1 C=1 -> specificity = 11 */
+#content    /* A=1 B=0 C=0 -> specificity = 100 */
+
+embedded style rules inline will take precadence
+
+The Box Model
+All elements will be a box
+
+3 key box properties
+ 1) border
+ 2) Padding  space between the boarder and the content of a box. Padding pushes
+ the content in away from the border.
+ 3) Margin the space between a box and any adjcent elements.
+ Margins puch boxes away from other boxes.
+
+boxes have 4 sides top, right, bottom, left
+
+margin work clockwise around the box
+margin 0 3px 0 3px
+
+only 1 ID per page
+multiple classes can be used
+
+command / shortcut for comments

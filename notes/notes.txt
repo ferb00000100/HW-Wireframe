@@ -1,0 +1,97 @@
+Header
+Nav
+Aside (With a Heading)
+Section (With a Heading)
+Article (With a Heading) contained within the Section
+Headers contained within the Article
+Paragraph contained within the Article
+
+our CSS should have styles for each of the following elements:
+
+
+Body
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: '#777'
+background: '#777'
+width: '960px'
+font-size: '18px'
+
+
+Header, Nav, Section, Aside, and Footer
+background: '#ebebeb'
+
+
+Article
+color: '#ebebeb',
+background: '#777'
+
+h1 and p
+color: '#777',
+background: '#ebebeb'
+
+The width of the section should be:
+section: 495px
+
+Don't forget to review these concepts: float, padding, margin, display, overflow, clear and text-align.
+
+
+
+body {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    align-self: center;
+    margin: auto;
+    width: 960px;
+    font-size: 18px;
+    background: #777777;
+    color: #777;
+}
+
+#upperboxes {
+    background: #ebebeb;
+    height: 100px;
+    width: 960px;
+    margin-top: 10px;
+    color: #777777;
+}
+
+#test {
+    border-style: solid;
+    border-color: blue;
+    height: 300px;
+    width: 580px;
+    color: #777777;
+}
+
+#lower {
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    height: 300px;
+    width: 580px;
+    color: #777777;
+}
+
+.p {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+
+#footer {
+    background-color: #ebebeb;
+}
+
+aside {
+    color: aqua;
+    background-color: #292961;
+    background-position: right;
+}
+
+article {
+    color: #292961;
+    height: 140px;
+    width: 240px;
+    background-color: #292961;
+}
